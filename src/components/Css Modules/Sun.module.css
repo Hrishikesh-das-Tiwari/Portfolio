@@ -1,0 +1,35 @@
+.sun {
+  transition: transform 530ms;
+  margin: auto;
+  z-index: 0;
+  width: 20%;
+  position: absolute;
+  left: 50%;
+}
+.moon {
+  transition: transform 530ms;
+  margin: auto;
+  z-index: 0;
+  width: 12%;
+  position: relative;
+  top: 10vh;
+  left: 10vw;
+  display: block;
+}
+/* .sun {
+  transition: transform 530ms;
+  margin: auto;
+  z-index: 0;
+  width: 20%;
+  position: absolute;
+  left: 50%;
+}
+.moon {
+  transition: transform 530ms;
+  margin: auto;
+  z-index: 0;
+  width: 12%;
+  position: absolute;
+  top: 12vh;
+  left: 50%;
+} */

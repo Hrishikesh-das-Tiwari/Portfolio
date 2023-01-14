@@ -1,0 +1,33 @@
+/* <----------- NavBar -------------> */
+#navbar {
+  background-color: #192846 !important;
+  border-radius: 0 0 10px 10px;
+  
+}
+a {
+  background: none;
+  color: rgb(154, 194, 240) !important;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  font-weight: bolder;
+  font-family: 'Rubik', sans-serif;
+}
+
+.nav-link {
+  background: none;
+  color: rgb(154, 194, 240) !important;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  font-weight:normal;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+
+.brand{
+    font-size: 1.9rem;
+}

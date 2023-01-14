@@ -1,0 +1,46 @@
+#about {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 30vh;
+  width: fit-content;
+  font-size: 2vw;
+  line-height: 1.5;
+  margin-bottom: 30vh;
+}
+.tree {
+  position: absolute;
+  width: 40vw !important;
+  right: 0;
+  z-index: -1;
+  transform: translateY(-90px);
+  margin-left: auto;
+}
+.about-txt {
+  font-size: 3.5vw;
+  min-height: 40px;
+  padding-bottom: 70px;
+  font-weight: bolder;
+  font-family: 'Rubik', sans-serif;
+}
+#about img {
+  width: 30%;
+}
+.grid-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 6vw;
+  align-items: center;
+  width: 90%;
+}
+.grid-item {
+  justify-content: flex-start;
+}
+.g1 {
+  flex: auto;
+}
+.g2 {
+  font-size: 1.7vw;
+  flex: 50%;
+}

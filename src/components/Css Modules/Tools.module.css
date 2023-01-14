@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Ceviche+One&family=Francois+One&family=Merriweather&family=Montserrat&family=Roboto&family=Rubik:wght@400;500;900&family=Sacramento&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+
+#section4 {
+  padding: 50px;
+  background-color: black;
+  margin: auto;
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  height: auto;
+}
+.tools {
+  width: 80%;
+  border-radius: 10px;
+  border: solid rgb(145, 104, 252) 2px;
+  border-style: dashed;
+  padding: 50px;
+  margin: auto;
+}
+.tool-head {
+  display: flex;
+  /* font-size: 30px; */
+  font-size: 1.9vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900 ;
+}
+.tool-data {
+  /* display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto; */
+  /* font-size: 15px; */
+  font-size: 1.2vw;
+  /* width: 40%; */
+}
+.tool{
+    position: relative;
+    overflow: hidden;
+    top: 40%;
+    margin-left: auto;
+    margin-right: 0;
+    align-self: flex-end;
+}
+
+.icon{
+    width: 4vw;
+    height: auto;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border:solid white 2px;
+}

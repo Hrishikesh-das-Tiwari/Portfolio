@@ -1,0 +1,224 @@
+#head {
+  z-index: 0;
+  margin-top: -10px;
+  width: 100%;
+  height: 100vh;
+}
+.day {
+  background-color: #e4f9f5;
+}
+.night {
+  background-color: #2f4187;
+}
+
+.heading {
+  padding-top: 10vh;
+  position: absolute;
+  z-index: 1111;
+  margin: auto;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+@media all and (min-width: 50px) {
+  h1 {
+    font-size: 2.1em;
+  }
+  h2 {
+    font-size: 0.1em;
+  }
+}
+@media all and (min-width: 100px) {
+  h1 {
+    font-size: 2.2em;
+  }
+  h2 {
+    font-size: 0.2em;
+  }
+}
+
+@media all and (min-width: 200px) {
+  h1 {
+    font-size: 2.4em;
+  }
+  h2 {
+    font-size: 0.6em;
+  }
+}
+@media all and (min-width: 300px) {
+  h1 {
+    font-size: 2.6em;
+  }
+  h2 {
+    font-size: 0.8em;
+  }
+}
+@media all and (min-width: 400px) {
+  h1 {
+    font-size: 2.8em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+}
+@media all and (min-width: 500px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+}
+@media all and (min-width: 600px) {
+  h1 {
+    font-size: 2.2em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+}
+@media all and (min-width: 700px) {
+  h1 {
+    font-size: 2.4em;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+}
+@media all and (min-width: 800px) {
+  h1 {
+    font-size: 2.6em;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+}
+@media all and (min-width: 900px) {
+  h1 {
+    font-size: 2.8em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+}
+@media all and (min-width: 1000px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.2em;
+  }
+}
+@media all and (min-width: 1100px) {
+  h1 {
+    font-size: 3.2em;
+  }
+  h2 {
+    font-size: 2.4em;
+  }
+}
+@media all and (min-width: 1200px) {
+  h1 {
+    font-size: 3.4em;
+  }
+  h2 {
+    font-size: 2.6em;
+  }
+}
+@media all and (min-width: 1300px) {
+  h1 {
+    font-size: 3.6em;
+  }
+  h2 {
+    font-size: 2.8em;
+  }
+}
+@media all and (min-width: 1400px) {
+  h1 {
+    font-size: 3.8em;
+  }
+  h2 {
+    font-size: 3em;
+  }
+}
+@media all and (min-width: 1500px) {
+  h1 {
+    font-size: 4.2em;
+  }
+  h2 {
+    font-size: 3.2em;
+  }
+}
+@media all and (min-width: 1600px) {
+  h1 {
+    font-size: 4.4em;
+  }
+  h2 {
+    font-size: 3.4em;
+  }
+}
+@media all and (min-width: 1700px) {
+  h1 {
+    font-size: 4.6em;
+  }
+  h2 {
+    font-size: 3.6em;
+  }
+}
+
+.pro {
+  margin-left: 20px;
+}
+.pro,
+.grammer {
+  padding: 5px;
+  transition-timing-function: ease-in-out;
+}
+.switch {
+  border-radius: 7px;
+  background-color: darkslategrey;
+  color: white;
+  box-shadow: black;
+}
+
+.nature {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 0vh;
+}
+.mountain {
+  width: 95%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.cloud {
+  position: relative;
+  bottom: 35vh;
+  width: 30%;
+  opacity: 0.85;
+  transform: translateX(-20%);
+}
+.cloud-2 {
+  bottom: 30vh;
+}
+
+@media only screen and (max-width: 800px) {
+  .cloud-1 {
+    bottom: 20vh;
+  }
+  .cloud-2 {
+    bottom: 15vh;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .cloud-1 {
+    bottom: 15vh;
+  }
+  .cloud-2 {
+    bottom: 10vh;
+  }
+}

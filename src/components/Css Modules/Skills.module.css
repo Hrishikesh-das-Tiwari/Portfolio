@@ -1,0 +1,22 @@
+#skills {
+  border-radius: 20px;
+  width: 100%;
+  background-color: #76ba99;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.skill {
+  color: white;
+  font-size: 3.5vw;
+  font-weight: bolder;
+  font-family: 'Rubik', sans-serif;
+}
+.skill-card {
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.skill-img-div {
+  padding: 10px;
+}
