@@ -15,11 +15,10 @@ export default React.memo(function Section2() {
           alt="hello"
         />
         <div className={` ${classes['grid-item']} ${classes.g2}`}>
-          I'm Hrishikesh Tiwari, a third-year Btech candidate at Thakur College
+          I'm Hrishikesh Tiwari, a final year Btech candidate at Thakur College
           of Engineering. I have a great deal of experience with, knowledge of,
           and enthusiasm for data structures and algorithms. I enjoy taking part
-          in the coding competition. I am an adept developer in MERN.I always
-          want to advance.
+          in the coding competition. I always want to advance.
         </div>
       </div>
     </div>
